@@ -53,6 +53,32 @@ export const eventsData: Event[] = [
   },
   {
     id: 1,
+    title: "GitHub × Vibe Coding Workshop",
+    date: "04, September, 2026",
+    category: "workshops",
+    image: "/assets/events/github workshop-0.jpg",
+    description: "A hands-on workshop to learn GitHub and Vibe Coding.",
+    status: "open",
+    fullDescription:
+      "GitHub × Vibe Coding Workshop is a hands-on session organized by the ATiT Association, Department of ICT, Faculty of Technology, Rajarata University. The workshop introduces participants to the fundamentals of Git and GitHub, collaborative software development, and modern AI-powered Vibe Coding techniques to help them build, experiment, and code smarter.",
+    venue: "S501, Sollertia Building, Faculty of Technology, Rajarata University",
+    time: "4:00 PM – 6:00 PM",
+    organizer: "ATIT Association",
+    highlights: [
+      "Learn the basics of Git & GitHub",
+      "Understand repositories, version control, and collaboration",
+      "Explore AI & Vibe Coding tools",
+      "Learn how AI can help you build and code smarter",
+      "Build, code, and collaborate in a hands-on environment"
+    ],
+    gallery: [
+      "/assets/events/github workshop-0.jpg"
+    ],
+    registrationLink:"https://forms.gle/cpRdfWndJ3Aq9hBi7"
+    
+  },
+  {
+    id: 2,
     title: "ATiT Week",
     date: "Coming Soon",
     category: "Event",
@@ -79,7 +105,7 @@ export const eventsData: Event[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Industry Visit and Soft Skills Development Programme",
     date: "October, 2025",
     category: "workshops",
@@ -106,7 +132,7 @@ export const eventsData: Event[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Career Path Selection Programme – UI/UX Design",
     date: "July, 2025",
     category: "workshops",
@@ -131,7 +157,7 @@ export const eventsData: Event[] = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Career Path Selection Programme – Business Analysis workshop",
     date: "July, 2025",
     category: "workshops",
@@ -156,7 +182,7 @@ export const eventsData: Event[] = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Career Path Selection Programme – Cloud Development",
     date: "June, 2025",
     category: "workshops",
@@ -177,5 +203,6 @@ export const eventsData: Event[] = [
       "/assets/events/cloud-dev-1.jpg",
       "/assets/events/cloud-dev-2.jpg",
     ],
+    
   },
 ];
